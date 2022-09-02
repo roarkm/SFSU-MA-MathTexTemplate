@@ -20,11 +20,11 @@ The above commands have been added to a makefile for convenience. Call them from
 
 # I just want to use TeXShop
 If you want to use TeXShop,
-open thesis.tex from the TeXShop GUI, then change the typesetting engine to 'pdflatexmk'
+open `thesis.tex` from the TeXShop GUI, then change the typesetting engine to **pdflatexmk**
 (from the default LaTeX).
 The LaTex might work but the bibliography and references will not be properly added.
-I'm using mac so the compile/typeset command is Cmd-T
-(or use the GUI drop-down-menu to select 'Typeset').
+I'm using mac so the compile/typeset command is <kbd>&#8984;</kbd> + <kbd>t</kbd>
+(or use the GUI drop-down-menu to select *Typeset*).
 
 For reference, I installed TeX Live (mactex) via the package installer found at https://www.tug.org/mactex/
 Using homebrew to install TeXLive should also work. Here are the version numbers I have.
