@@ -3,10 +3,15 @@ This template was acquired via department emails requesting feedback on experime
 
 I am compiling via command line with
 ```
-pdflatex -interaction=nonstopmode thesis.tex
-biber thesis
-pdflatex -interaction=nonstopmode thesis.tex
+> pdflatex -interaction=nonstopmode thesis.tex
+> biber thesis
+> pdflatex -interaction=nonstopmode thesis.tex
 ```
+or in one line with
+```
+> pdflatex -interaction=nonstopmode thesis.tex; biber thesis; pdflatex -interaction=nonstopmode thesis.tex
+```
+
 
 Installed TeX Live via package installer found at https://www.tug.org/mactex/
 (homebrew should also work)
