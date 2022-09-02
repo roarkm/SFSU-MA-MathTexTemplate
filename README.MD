@@ -46,9 +46,13 @@ https://libguides.sfsu.edu/latex/generating-html
 # Other resources
 https://sfsu.app.box.com/v/ma-thesis-examples
 
+# Known Issues
+- The **Certificate of Approval** page appears to have some bugs
+  - A fourth (blank) signature line appears despite commenting out the `\memberfour{}` and related commands.
+  - The `\numberofmembers{}` command seems to have no effect
+
 # Citations
 Put your bibliographic references in the file `references.bib` (referred to as a database)
 and use the LaTeX command `\cite{my-article-name}`.
 
 [How to find bib file entries.](https://texblog.org/2014/04/22/using-google-scholar-to-download-bibtex-citations/#:~:text=To%20download%20BibTeX%20citation%20go,and%20paste%20the%20BibTeX%20citation)
-
