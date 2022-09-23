@@ -50,6 +50,8 @@ https://sfsu.app.box.com/v/ma-thesis-examples
 - The **Certificate of Approval** page appears to have some bugs
   - A fourth (blank) signature line appears despite commenting out the `\memberfour{}` and related commands.
   - The `\numberofmembers{}` command seems to have no effect
+- **bold** (e.g. `{\bf my bold text}`) and **italic** (e.g. `{\it my italicized text}`) inline blocks have no effect.
+  - It is unclear if this is a bug or style guide enforced by the template.
 
 # Citations
 Put your bibliographic references in the file `references.bib` (referred to as a database)
