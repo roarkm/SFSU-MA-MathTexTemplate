@@ -53,7 +53,7 @@ https://sfsu.app.box.com/v/ma-thesis-examples
   - **POSSIBLE SOLUTION** edit the sfsuthesis.cls file to customize the approvalpage definition.
 - **bold** (e.g. `{\bf my bold text}`) and **italic** (e.g. `{\it my italicized text}`) inline blocks have no effect.
   - It is unclear if this is a bug or style guide enforced by the template.
-  - **POSSIBLE [Solution](https://tex.stackexchange.com/questions/392568/class-memoir-error-font-command-it-is-not-supported)** Use newer font-switching commands (e.g. `\bfseries`) or provide the `oldfontcommands` option to `\documentclass` (i.e.\ `\documentclass[oldfontcommands]{sfsuthesis}`)
+  - **POSSIBLE [Solution](https://tex.stackexchange.com/questions/392568/class-memoir-error-font-command-it-is-not-supported)** Use newer font-switching commands (e.g. `\bfseries`) or provide the `oldfontcommands` option to `\documentclass` (i.e. `\documentclass[oldfontcommands]{sfsuthesis}`)
 
 # Citations
 Put your bibliographic references in the file `references.bib` (referred to as a database)
